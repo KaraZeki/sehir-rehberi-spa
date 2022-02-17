@@ -5,5 +5,6 @@ export class City {
     name:string="";
     description:string="";
     userId:number=0;
-    photo:Photo[]=[];
+    photoUrl:string="";
+    photos:Photo[]=[];
 }
